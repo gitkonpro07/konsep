@@ -26,4 +26,4 @@ def game_sederhana():
 		if kom=="kertas":
 			print("\tkamu menang")
 		if kom=="gunting":
-			print("\tdraw")
+			print("\tdraw") 
