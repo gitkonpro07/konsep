@@ -17,6 +17,13 @@ def game_sederhana():
 		if kom=="kertas":
 			print("\tkamu kalah")
 		if kom=="gunting":
-			print("\tkamu menang")"# tugas-konsep" 
-"# tugas-konsep" 
-"# konsep" 
+			print("\tkamu menang")
+	f pil==2:
+		print("anda			:gunting")
+		print(""komputer	:",kom)
+		if kom=="batu":
+			print("\tkamu kalah")
+		if kom=="kertas":
+			print("\tkamu menang")
+		if kom=="gunting":
+			print("\tdraw")
