@@ -36,3 +36,8 @@ def game_sederhana():
 			print("\tdraw")
 		if kom=="gunting":
 			print("\tkamu kalah")
+			
+	if pil>=4:
+		print("pilihan tidak ada. . .")
+		
+game_sederhana()
