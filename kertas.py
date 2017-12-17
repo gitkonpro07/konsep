@@ -9,7 +9,7 @@ print()
 def game_sederhana():
 	kom=random.choice(["batu","gunting","kertas"])
 	pil=int(input("masukan pilihan: "))
-	if pil==1 :
+	if pil==1:
 		print("anda        :batu")
 		print("komputer    :",kom)
 		if kom=="batu":
@@ -18,7 +18,7 @@ def game_sederhana():
 			print("\tkamu kalah")
 		if kom=="gunting":
 			print("\tkamu menang")
-	if pil==2 :
+	if pil==2:
 		print("anda			:gunting")
 		print("komputer	    :",kom)
 		if kom=="batu":
@@ -27,7 +27,7 @@ def game_sederhana():
 			print("\tkamu menang")
 		if kom=="gunting":
 			print("\tdraw") 
-	if pil==3 :	
+	if pil==3:	
 		print("anda        :kertas")
 		print("komputer    :",kom)
 		if kom=="batu":
