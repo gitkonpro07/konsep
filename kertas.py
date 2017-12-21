@@ -1,18 +1,18 @@
 import random
 print("daftar pilihan")
 print()
-print("1.batu")
+print("1.besi")
 print("2.gunting")
 print("3.kertas")
 print()
 
 def game_sederhana():
-	kom=random.choice(["batu","gunting","kertas"])
+	kom=random.choice(["besi","gunting","kertas"])
 	pil=int(input("masukan pilihan: "))
 	if pil==1 :
-		print("anda        :batu")
+		print("anda        :besi")
 		print("komputer    :",kom)
-		if kom=="batu":
+		if kom=="besi":
 			print("\tdraw")
 		if kom=="kertas":
 			print("\tkamu kalah")
@@ -21,7 +21,7 @@ def game_sederhana():
 	if pil==2 :
 		print("anda	    :gunting")
 		print("komputer	    :",kom)
-		if kom=="batu":
+		if kom=="besi":
 			print("\tkamu kalah")
 		if kom=="kertas":
 			print("\tkamu menang")
@@ -30,7 +30,7 @@ def game_sederhana():
 	if pil==3 :	
 		print("anda        :kertas")
 		print("komputer    :",kom)
-		if kom=="batu":
+		if kom=="besi":
 			print("\tkamu menang")
 		if kom=="kertas":
 			print("\tdraw")
